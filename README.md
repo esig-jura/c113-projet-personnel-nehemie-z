@@ -4,8 +4,8 @@
 ## 1. 🎨 Présentation du projet
 
 ### Concept
-- Thème choisi : …
-- Public cible : …
+- Thème choisi : Marvel
+- Public cible : Les homme de gout
 - Objectifs du site : …
 
 ### Fonctionnalités prévues
@@ -35,8 +35,8 @@
 ## 3. 🛠️ Outils et méthodologie
 
 ### Environnement de travail
-- IDE : …
-- Navigateurs de test : …
+- IDE : Webtorme
+- Navigateurs de test : Chrome
 - Versioning : Git + GitHub
 - Validation : Validator W3C, PageSpeed Insights, Wave
 
