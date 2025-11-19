@@ -47,11 +47,14 @@ main {
 
 /* Cadre */
 .ff-box {
-    border: 3px solid #B00000;
-    background-color: #f7f7f7;
+    border: 3px solid #B00000; /* rouge */
+    background: linear-gradient( #fdfdfd, #eaeaea); /* léger dégradé pour relief */
     padding: 20px;
     margin-bottom: 25px;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3); /* ombre portée pour effet flottant */
+    position: relative;
+    overflow: hidden;
 }
 
 /* Portrait centré */
