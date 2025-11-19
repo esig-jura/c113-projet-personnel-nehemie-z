@@ -60,13 +60,18 @@ main {
 /* Portrait centré */
 #portrait {
     text-align: center;
+
 }
 
 #portrait img {
-    width: 250px;
-    border: 3px solid #B00000;
-    border-radius: 10px;
-    background: white;
+    width: 100%;
+    height: auto;
+    max-height: 350px;      /* hauteur limite */
+    object-fit: cover;      /* crop automatique si plus haut que 350px */
+    object-position: top;   /* aligne le haut de l'image, coupe le bas */
+    display: block;
+    margin: 0;          /* aucune marge */
+    padding: 0;
 }
 
 /* Stats en grille à la Final Fantasy */
