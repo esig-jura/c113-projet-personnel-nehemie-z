@@ -1,36 +1,82 @@
+/* --- Style général --- */
 body {
     font-family: Arial, sans-serif;
+    background-color: #ffffff; /* blanc */
+    color: #000000; /* texte noir */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #222;
-    padding: 20px;
+    background-color: #B00000; /* rouge Marvel */
+    color: white;
     text-align: center;
+    padding: 20px;
 }
 
+/* --- Navigation --- */
 nav ul {
     list-style: none;
-    padding: 0;
     margin: 0;
-    background-color: #333;
+    padding: 10px;
+    background-color: #B00000;
     display: flex;
+    gap: 25px;
     justify-content: center;
-    gap: 30px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-weight: bold;
 }
 
 nav a:hover {
-    color: #ff3333;
+    text-decoration: underline;
 }
 
-img {
-    display: block;
-    margin: auto;
+/* --- Contenu principal façon RPG --- */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Cadre */
+.ff-box {
+    border: 3px solid #B00000;
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+/* Portrait centré */
+#portrait {
+    text-align: center;
+}
+
+#portrait img {
+    width: 250px;
+    border: 3px solid #B00000;
+    border-radius: 10px;
+    background: white;
+}
+
+/* Stats en grille à la Final Fantasy */
+.stats-container {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    row-gap: 10px;
+    column-gap: 20px;
+    font-size: 18px;
+}
+
+.stats-label {
+    font-weight: bold;
+}
+
+/* Compétences */
+.skills li {
+    margin-bottom: 5px;
 }
